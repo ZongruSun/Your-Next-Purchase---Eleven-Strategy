@@ -3,20 +3,26 @@
 ## 📌 Project Overview
 This project is an **LSTM-based product recommendation system** designed to predict the product categories a customer is likely to purchase next, based on their purchase history. The system uses **Streamlit** as a front-end interface and PyTorch for deep learning inference.
 
+## 🔹 App
+**Enter a Client ID and Click "Get Recommendations"**
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/c29b9b86-6592-467c-aa25-7fd5e74dc527" />
+
 ## 🚀 Key Features
 - **Predict future purchase categories** using an LSTM model based on historical data.
 - **Recommend relevant products** by filtering available stock.
 - **User-friendly web interface** where users input a client ID to get recommendations.
+
 
 ---
 
 ## 📂 File Structure
 ```plaintext
 📦 Project Structure
-│── app.py                # Streamlit UI, loads model, calls recommend()
-│── data_loader.py        # Loads CSV data
-│── model.py              # LSTM model definition & recommendation logic
-│── train_model.py        # Trains LSTM model, generates model.pth
+│── Code/
+    │── app.py                # Streamlit UI, loads model, calls recommend()
+    │── data_loader.py        # Loads CSV data
+    │── model.py              # LSTM model definition & recommendation logic
+    │── train_model.py        # Trains LSTM model, generates model.pth
 │── data/
 │   ├── merged_data_with_features.csv  # Transaction & user history data
 │   ├── stocks.csv                     # Stock information
@@ -125,20 +131,5 @@ We welcome **Issues** and **Pull Requests**!
 ## 📧 Contact
 For any questions or suggestions, feel free to contact [ZongruSun](https://github.com/ZongruSun) 🚀
 
----
 
-## 📸 **Application Screenshot**
-Here is a screenshot of the working **Product Recommendation System**:
-
-![App Screenshot](./path-to-your-screenshot.png)
-
-### **🔹 How It Works**
-1. **Enter a Client ID** in the input box.
-2. **Click "Get Recommendations"**.
-3. **The system will automatically generate recommendations**, displaying:
-   - **Recommended Categories** (Top predicted purchase categories)
-   - **Recommended Products** (Filtered based on stock availability)
-   - **Performance Metrics** (Recall@3 score, correctly predicted categories)
-
----
 

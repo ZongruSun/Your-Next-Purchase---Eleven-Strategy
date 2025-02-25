@@ -33,21 +33,6 @@ This project is an **LSTM-based product recommendation system** designed to pred
 
 ---
 
-## 🛠️ Installation & Setup
-### **1️⃣ Clone the Repository & Navigate to Directory**
-```bash
-git clone https://github.com/ZongruSun/Your-Next-Purchase---Eleven-Strategy.git
-cd Your-Next-Purchase---Eleven-Strategy
-```
-
-### **2️⃣ Install Python Dependencies**
-Ensure you have Python 3.8+ installed, then run:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 📌 **Usage Guide**
 
 ### **1️⃣ Train the LSTM Model (Run Once)**

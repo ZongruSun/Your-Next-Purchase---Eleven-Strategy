@@ -1,4 +1,5 @@
 # Your-Next-Purchase---Eleven-Strategy
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/b50f1f9a-3847-463b-9205-3c9bdfef34c2" />
 
 ## 📌 Project Overview
 This project is an **LSTM-based product recommendation system** designed to predict the product categories a customer is likely to purchase next, based on their purchase history. The system uses **Streamlit** as a front-end interface and PyTorch for deep learning inference.
